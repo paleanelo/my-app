@@ -6,17 +6,16 @@ function Main({ h1 }) {
   const [isBlue, setIsBlue] = useState(true);
   const [isTextVisible, setIsTextVisible] = useState(true);
 
-  // Логика для квадратов
+
   const handleGreenClick = () => {
-    setIsBlue(false); // Зеленый вызывает замену синего на красный
+    setIsBlue(false); 
   };
 
   const handleRedClick = () => {
-    setIsBlue(true); // Красный возвращает синий
-    setIsGreen(!isGreen); // Меняет цвет зеленого на синий
+    setIsBlue(true);
+    setIsGreen(!isGreen);
   };
 
-  // Логика для скрытого текста
   const toggleText = () => {
     setIsTextVisible(!isTextVisible);
   };

@@ -4,7 +4,6 @@ import "./style.css";
 function TextToggle({ text }) {
     const [showFullText, setShowFullText] = useState(false);
 
-    // Извлекаем первое предложение из текста
     const firstSentence = text.split(".")[0] + ".";
 
     const toggleText = () => {

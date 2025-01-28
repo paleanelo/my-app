@@ -1,12 +1,8 @@
-/* style.css */
-
-/* Основной стиль для main */
 main {
     padding: 20px;
     text-align: center;
 }
 
-/* Кнопка переключения текста */
 button {
     margin: 10px 0;
     padding: 10px 20px;
@@ -22,22 +18,19 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Стиль для текста */
 p {
     font-size: 18px;
     color: #333;
 }
 
-/* Контейнер для квадратов */
 .squares-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    gap: 10px; /* Уменьшено расстояние между квадратами */
+    gap: 10px;
 }
 
-/* Квадраты */
 .square {
     width: 100px;
     height: 100px;
@@ -50,7 +43,6 @@ p {
     transform: scale(1.1);
 }
 
-/* Цвета квадратов */
 .blue {
     background-color: blue;
 }

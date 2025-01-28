@@ -2,7 +2,6 @@ import React from "react";
 import "./style.css";
 
 function Rating({ maxStars, selectedStars }) {
-    // Создаем массив звезд
     const stars = Array.from({ length: maxStars }, (_, index) => index < selectedStars);
 
     return (

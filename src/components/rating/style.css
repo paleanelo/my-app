@@ -3,16 +3,16 @@
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
-    gap: 5px; /* Расстояние между звездами */
+    gap: 5px; 
 }
 
 .star {
-    font-size: 24px; /* Размер звезды */
-    color: #ddd; /* Цвет незаполненной звезды */
+    font-size: 24px;
+    color: #ddd;
     cursor: pointer;
     transition: color 0.2s;
 }
 
 .star.filled {
-    color: #ffc107; /* Цвет заполненной звезды */
+    color: #ffc107; 
 }

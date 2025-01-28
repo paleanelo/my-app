@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     margin-right: 200px;
-    gap: 10px; /* Расстояние между текстом и кнопкой */
+    gap: 10px; 
 }
 
 .text-toggle span {
-    flex: 1; /* Текст занимает оставшееся пространство */
+    flex: 1; 
 }
 
 .text-toggle button {
