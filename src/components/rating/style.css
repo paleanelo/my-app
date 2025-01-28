@@ -1,0 +1,18 @@
+.rating {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 5px; /* Расстояние между звездами */
+}
+
+.star {
+    font-size: 24px; /* Размер звезды */
+    color: #ddd; /* Цвет незаполненной звезды */
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.star.filled {
+    color: #ffc107; /* Цвет заполненной звезды */
+}
